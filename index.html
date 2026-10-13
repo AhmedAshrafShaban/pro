@@ -11,10 +11,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome Icons -->
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
-    <!-- Tailwind CSS CDN -->
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -53,7 +53,7 @@
             border-color: rgba(56, 189, 248, 0.45);
         }
         .glass-nav {
-            background: rgba(7, 10, 18, 0.9);
+            background: rgba(7, 10, 18, 0.92);
             backdrop-filter: blur(14px);
             border-bottom: 1px solid rgba(255, 255, 255, 0.08);
         }
@@ -70,10 +70,9 @@
     <header class="fixed top-0 left-0 w-full z-50 glass-nav transition-all duration-300">
         <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
             <a href="#" class="flex items-center gap-3 group">
-                <!-- User photo inside navbar -->
-                <img src="WhatsApp Image 2026-05-23 at 7.03.49 PM_2.jpeg" 
+                <!-- Ahmed's Real Profile Picture in Navbar -->
+                <img src="my-photo.jpg" 
                      alt="Ahmed Ashraf" 
-                     onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80'"
                      class="w-10 h-10 rounded-full object-cover object-top border-2 border-cyan-400 group-hover:scale-105 transition-transform shadow-md">
                 <span class="font-bold text-lg tracking-tight text-white group-hover:text-cyan-400 transition-colors">
                     Ahmed Ashraf<span class="text-cyan-400">.</span>
@@ -132,7 +131,7 @@
                         <i class="fas fa-arrow-down text-xs"></i>
                     </a>
                     <a href="#certifications" class="px-6 py-3.5 rounded-xl bg-slate-900/90 border border-slate-700 hover:border-slate-500 text-slate-200 font-medium transition-all flex items-center gap-2">
-                        <i class="fas fa-award text-cyan-400"></i>
+                        <i class="fas fa-shield-alt text-cyan-400"></i>
                         <span>Certifications & Audits</span>
                     </a>
                 </div>
@@ -154,20 +153,19 @@
                 </div>
             </div>
 
-            <!-- Right Profile Image with Status -->
+            <!-- Right Profile Image: Ahmed's Exact Photo -->
             <div class="lg:col-span-5 flex justify-center order-1 lg:order-2">
                 <div class="relative group">
                     <div class="absolute -inset-2 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-3xl blur-xl opacity-40 group-hover:opacity-70 transition duration-500"></div>
                     
                     <div class="relative bg-slate-900 rounded-2xl overflow-hidden border border-slate-700/80 shadow-2xl p-2.5">
                         <div class="relative overflow-hidden rounded-xl">
-                            <!-- Real Full Suit Photo -->
-                            <img src="WhatsApp Image 2026-05-23 at 7.03.49 PM_2.jpeg" 
-                                 alt="Ahmed Ashraf Shaban"
-                                 onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80'"
-                                 class="w-72 sm:w-80 h-[420px] object-cover object-top rounded-xl group-hover:scale-105 transition duration-500">
+                            <!-- User's Real Suit Photo -->
+                            <img src="my-photo.jpg" 
+                                 alt="Ahmed Ashraf Shaban" 
+                                 class="w-72 sm:w-80 h-[430px] object-cover object-top rounded-xl group-hover:scale-105 transition duration-500">
                             
-                            <div class="absolute bottom-3 left-3 right-3 bg-slate-950/85 backdrop-blur-md px-4 py-2.5 rounded-lg border border-slate-700/60 flex items-center justify-between">
+                            <div class="absolute bottom-3 left-3 right-3 bg-slate-950/90 backdrop-blur-md px-4 py-2.5 rounded-lg border border-slate-700/60 flex items-center justify-between">
                                 <div>
                                     <h3 class="text-white font-bold text-sm">Ahmed Ashraf Shaban</h3>
                                     <p class="text-xs text-cyan-400 font-mono">Software Eng. & Security</p>
@@ -373,7 +371,7 @@
         </div>
     </section>
 
-    <!-- Certifications Section (Accurate Images and Functional Links) -->
+    <!-- Certifications Section -->
     <section id="certifications" class="py-20 bg-slate-950/60 border-t border-slate-900">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
@@ -384,12 +382,12 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 
-                <!-- Cert 1: NTI Cybersecurity -->
+                <!-- Cert 1: NTI Cybersecurity Academy -->
                 <div class="bg-slate-900 rounded-2xl border border-slate-800 overflow-hidden flex flex-col justify-between hover:border-cyan-500/40 transition glow-card">
-                    <div class="h-44 bg-white relative overflow-hidden border-b border-slate-800/80 p-1 flex items-center justify-center">
-                        <img src="image_b3d519.png" 
-                             alt="NTI Cybersecurity Certificate" 
-                             class="max-h-full object-contain hover:scale-105 transition duration-300">
+                    <div class="h-44 bg-slate-950 relative overflow-hidden border-b border-slate-800/80 p-2 flex items-center justify-center">
+                        <img src="nti-cert.png" 
+                             alt="NTI Cybersecurity Academy Certificate" 
+                             class="max-h-full object-contain rounded hover:scale-105 transition duration-300">
                         <span class="absolute top-2.5 left-2.5 px-2 py-0.5 rounded bg-cyan-950/90 text-cyan-400 font-mono text-[10px] border border-cyan-800/50">
                             NTI Academy
                         </span>
@@ -403,19 +401,18 @@
                     </div>
                     <div class="p-4 pt-0 border-t border-slate-800/60 mt-2 flex items-center justify-between">
                         <span class="text-[11px] text-slate-500">Ministry of CIT</span>
-                        <a href="image_b3d519.png" target="_blank" class="text-xs text-cyan-400 hover:text-cyan-300 font-medium inline-flex items-center gap-1">
+                        <a href="nti-cert.png" target="_blank" class="text-xs text-cyan-400 hover:text-cyan-300 font-medium inline-flex items-center gap-1">
                             <span>Open Certificate</span> <i class="fas fa-external-link-alt text-[10px]"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- Cert 2: Cisco CCST -->
+                <!-- Cert 2: Cisco CCST IT Support -->
                 <div class="bg-slate-900 rounded-2xl border border-slate-800 overflow-hidden flex flex-col justify-between hover:border-cyan-500/40 transition glow-card">
-                    <div class="h-44 bg-white relative overflow-hidden border-b border-slate-800/80 p-1 flex items-center justify-center">
+                    <div class="h-44 bg-slate-950 relative overflow-hidden border-b border-slate-800/80 p-2 flex items-center justify-center">
                         <img src="https://drive.google.com/thumbnail?id=1iit4v22mrL5t2jRjU48uFZYecO2SQEi8" 
                              alt="Cisco CCST IT Support" 
-                             onerror="this.src='https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=400&q=80'"
-                             class="max-h-full object-contain hover:scale-105 transition duration-300">
+                             class="max-h-full object-contain rounded hover:scale-105 transition duration-300">
                         <span class="absolute top-2.5 left-2.5 px-2 py-0.5 rounded bg-blue-950/90 text-blue-400 font-mono text-[10px] border border-blue-800/50">
                             Cisco Systems
                         </span>
@@ -437,11 +434,10 @@
 
                 <!-- Cert 3: ITI Backend .NET -->
                 <div class="bg-slate-900 rounded-2xl border border-slate-800 overflow-hidden flex flex-col justify-between hover:border-cyan-500/40 transition glow-card">
-                    <div class="h-44 bg-white relative overflow-hidden border-b border-slate-800/80 p-1 flex items-center justify-center">
+                    <div class="h-44 bg-slate-950 relative overflow-hidden border-b border-slate-800/80 p-2 flex items-center justify-center">
                         <img src="https://drive.google.com/thumbnail?id=1CEh01l3FEKajTn047ZgSTpJM14jGYRKc" 
                              alt="ITI Backend .NET" 
-                             onerror="this.src='https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=400&q=80'"
-                             class="max-h-full object-contain hover:scale-105 transition duration-300">
+                             class="max-h-full object-contain rounded hover:scale-105 transition duration-300">
                         <span class="absolute top-2.5 left-2.5 px-2 py-0.5 rounded bg-purple-950/90 text-purple-400 font-mono text-[10px] border border-purple-800/50">
                             ITI Egypt
                         </span>
@@ -461,13 +457,14 @@
                     </div>
                 </div>
 
-                <!-- Cert 4: NVIDIA Fundamentals of Deep Learning -->
+                <!-- Cert 4: NVIDIA Deep Learning -->
                 <div class="bg-slate-900 rounded-2xl border border-slate-800 overflow-hidden flex flex-col justify-between hover:border-cyan-500/40 transition glow-card">
-                    <div class="h-44 bg-white relative overflow-hidden border-b border-slate-800/80 p-1 flex items-center justify-center">
-                        <img src="certificate_DL.pdf" 
-                             alt="NVIDIA Deep Learning Certificate" 
-                             onerror="this.src='https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=400&q=80'"
-                             class="max-h-full object-contain hover:scale-105 transition duration-300">
+                    <div class="h-44 bg-slate-950 relative overflow-hidden border-b border-slate-800/80 p-4 flex flex-col items-center justify-center text-center">
+                        <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 flex items-center justify-center text-2xl mb-2">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <span class="text-xs font-mono text-emerald-300 font-semibold">NVIDIA DLI Certified</span>
+                        <span class="text-[10px] text-slate-500 font-mono mt-1">ID: NVfKSLtwQR-n1e7RKTyrDQ</span>
                         <span class="absolute top-2.5 left-2.5 px-2 py-0.5 rounded bg-emerald-950/90 text-emerald-400 font-mono text-[10px] border border-emerald-800/50">
                             NVIDIA DLI
                         </span>
@@ -476,23 +473,23 @@
                         <h4 class="text-base font-bold text-white">Fundamentals of Deep Learning</h4>
                         <p class="text-xs text-emerald-400 font-mono">Neural Networks & GPUs</p>
                         <p class="text-xs text-slate-400 leading-relaxed">
-                            Issued by NVIDIA Vice President. Certificate ID: NVfKSLtwQR-n1e7RKTyrDQ.
+                            Issued by NVIDIA Vice President. Demonstrated competence in deep neural networks.
                         </p>
                     </div>
                     <div class="p-4 pt-0 border-t border-slate-800/60 mt-2 flex items-center justify-between">
                         <span class="text-[11px] text-slate-500">NVIDIA DLI</span>
                         <a href="certificate_DL.pdf" target="_blank" class="text-xs text-cyan-400 hover:text-cyan-300 font-medium inline-flex items-center gap-1">
-                            <span>Open Certificate</span> <i class="fas fa-external-link-alt text-[10px]"></i>
+                            <span>Open PDF</span> <i class="fas fa-file-pdf text-[10px]"></i>
                         </a>
                     </div>
                 </div>
 
                 <!-- Cert 5: Kaggle Computer Vision -->
                 <div class="bg-slate-900 rounded-2xl border border-slate-800 overflow-hidden flex flex-col justify-between hover:border-cyan-500/40 transition glow-card">
-                    <div class="h-44 bg-white relative overflow-hidden border-b border-slate-800/80 p-1 flex items-center justify-center">
-                        <img src="image_b3dc01.jpg" 
+                    <div class="h-44 bg-slate-950 relative overflow-hidden border-b border-slate-800/80 p-2 flex items-center justify-center">
+                        <img src="kaggle-cv.jpg" 
                              alt="Kaggle Computer Vision Certificate" 
-                             class="max-h-full object-contain hover:scale-105 transition duration-300">
+                             class="max-h-full object-contain rounded hover:scale-105 transition duration-300">
                         <span class="absolute top-2.5 left-2.5 px-2 py-0.5 rounded bg-sky-950/90 text-sky-400 font-mono text-[10px] border border-sky-800/50">
                             Kaggle Learn
                         </span>
@@ -505,8 +502,8 @@
                         </p>
                     </div>
                     <div class="p-4 pt-0 border-t border-slate-800/60 mt-2 flex items-center justify-between">
-                        <span class="text-[11px] text-slate-500">Kaggle Certified</span>
-                        <a href="image_b3dc01.jpg" target="_blank" class="text-xs text-cyan-400 hover:text-cyan-300 font-medium inline-flex items-center gap-1">
+                        <span class="text-[11px] text-slate-500">Kaggle Official</span>
+                        <a href="kaggle-cv.jpg" target="_blank" class="text-xs text-cyan-400 hover:text-cyan-300 font-medium inline-flex items-center gap-1">
                             <span>Open Certificate</span> <i class="fas fa-external-link-alt text-[10px]"></i>
                         </a>
                     </div>
@@ -514,10 +511,10 @@
 
                 <!-- Cert 6: Kaggle Intro to Deep Learning -->
                 <div class="bg-slate-900 rounded-2xl border border-slate-800 overflow-hidden flex flex-col justify-between hover:border-cyan-500/40 transition glow-card">
-                    <div class="h-44 bg-white relative overflow-hidden border-b border-slate-800/80 p-1 flex items-center justify-center">
-                        <img src="image_b3dc22.png" 
+                    <div class="h-44 bg-slate-950 relative overflow-hidden border-b border-slate-800/80 p-2 flex items-center justify-center">
+                        <img src="kaggle-dl.png" 
                              alt="Kaggle Intro to Deep Learning Certificate" 
-                             class="max-h-full object-contain hover:scale-105 transition duration-300">
+                             class="max-h-full object-contain rounded hover:scale-105 transition duration-300">
                         <span class="absolute top-2.5 left-2.5 px-2 py-0.5 rounded bg-amber-950/90 text-amber-400 font-mono text-[10px] border border-amber-800/50">
                             Kaggle Learn
                         </span>
@@ -530,8 +527,8 @@
                         </p>
                     </div>
                     <div class="p-4 pt-0 border-t border-slate-800/60 mt-2 flex items-center justify-between">
-                        <span class="text-[11px] text-slate-500">Kaggle Certified</span>
-                        <a href="image_b3dc22.png" target="_blank" class="text-xs text-cyan-400 hover:text-cyan-300 font-medium inline-flex items-center gap-1">
+                        <span class="text-[11px] text-slate-500">Kaggle Official</span>
+                        <a href="kaggle-dl.png" target="_blank" class="text-xs text-cyan-400 hover:text-cyan-300 font-medium inline-flex items-center gap-1">
                             <span>Open Certificate</span> <i class="fas fa-external-link-alt text-[10px]"></i>
                         </a>
                     </div>
